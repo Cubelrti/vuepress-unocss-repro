@@ -4,8 +4,11 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "vuepress build docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "stackblitz": {
+    "startCommand": "npm run build"
   },
   "devDependencies": {
     "@unocss/preset-wind": "latest",
